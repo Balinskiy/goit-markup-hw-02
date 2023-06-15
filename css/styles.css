@@ -1,0 +1,210 @@
+/**
+  |============================
+  | Root
+  |============================
+*/
+:root {
+    --dark-cl: #2E2F42;
+    --blue-cl: #4D5AE5;
+    --white-cl: #FFFFFF;
+    --contact-cl: #434455;
+    --footer-p-cl: #F4F4FD;
+}
+
+/* Reset */
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+btn {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.addrs {
+    font-style: normal;
+}
+
+/**
+  |============================
+  | Common styles
+  |============================
+*/
+.page {
+    font-family: 'Roboto', sans-serif;
+    color: #2E2F42;
+}
+
+.header {}
+
+.nav {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--dark-cl);
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-web {
+    color: var(--blue-cl);
+}
+
+.list {}
+
+.nav-item {}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #404BBF;
+}
+
+.addrs {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--contact-cl);
+}
+
+.addrs-item {}
+
+.addrs-link:hover,
+.addrs-link:focus {
+    color: #404BBF;
+}
+
+/**
+  |============================
+  | Base styles
+  |============================
+*/
+
+.main {}
+
+h1 {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--white-cl);
+
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark-cl);
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark-cl);
+}
+
+/**
+  |============================
+  | Webstudio page
+  |============================
+*/
+
+.section.banner {
+    background-color: #2E2F42;
+}
+
+.banner-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px;
+    background: var(--blue-cl);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.banner-btn:hover,
+.banner-btn:focus {
+    background: #404BBF;
+}
+
+.btn-text {
+    color: var(--white-cl);
+}
+
+.feature {}
+
+.feature-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--dark-cl);
+}
+
+.wedoing {}
+
+.wedoing-item {}
+
+.wedoing-img {}
+
+.team {}
+
+.team-item {}
+
+.team-img {}
+
+.section {}
+
+/**
+  |============================
+  | Porfolio page
+  |============================
+*/
+
+.portfolio.btn.list {}
+
+.portfolio-filtr {
+    color: var(--blue-cl);
+    background: #F4F4FD;
+}
+
+.portfolio-filtr:hover,
+.portfolio-filtr:focus {
+    color: var(--white-cl);
+    background: #404BBF;
+}
+
+.list {}
+
+.img {}
+
+.portfolio-item {}
+
+/**
+  |============================
+  | Footer
+  |============================
+*/
+
+.footer {
+    background-color: #2E2F42;
+    color: var(--footer-p-cl)
+}
