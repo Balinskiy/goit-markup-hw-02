@@ -37,7 +37,7 @@ btn {
   | Common styles
   |============================
 */
-.page {
+body {
     font-family: 'Roboto', sans-serif;
     color: #2E2F42;
 }
