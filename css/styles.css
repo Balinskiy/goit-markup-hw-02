@@ -13,14 +13,8 @@
 
 /* Reset */
 
-ul,
-ol {
+.list {
     list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: currentColor;
 }
 
 btn {
@@ -28,9 +22,6 @@ btn {
     cursor: pointer;
 }
 
-.addrs {
-    font-style: normal;
-}
 
 /**
   |============================
@@ -39,10 +30,15 @@ btn {
 */
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    color: #434455;
+    background-color: var(--white-cl);
 }
 
-.header {}
+/**
+  |============================
+  | Header
+  |============================
+*/
 
 .nav {
     font-weight: 500;
@@ -53,39 +49,47 @@ body {
 }
 
 .logo {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-
-.logo-web {
     color: var(--blue-cl);
 }
 
-.list {}
+.header-studio {
+    color: var(--dark-cl);
+}
 
-.nav-item {}
+.nav-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--dark-cl);
+}
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #404BBF;
+    color: #404bbf;
 }
 
-.addrs {
+.address-link {
+    text-decoration: none;
+    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--contact-cl);
 }
 
-.addrs-item {}
-
-.addrs-link:hover,
-.addrs-link:focus {
-    color: #404BBF;
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf;
 }
 
 /**
@@ -93,8 +97,6 @@ body {
   | Base styles
   |============================
 */
-
-.main {}
 
 h1 {
     font-size: 56px;
@@ -150,8 +152,6 @@ h3 {
     color: var(--white-cl);
 }
 
-.feature {}
-
 .feature-item {
     font-size: 16px;
     line-height: 1.5;
@@ -159,27 +159,12 @@ h3 {
     color: var(--dark-cl);
 }
 
-.wedoing {}
-
-.wedoing-item {}
-
-.wedoing-img {}
-
-.team {}
-
-.team-item {}
-
-.team-img {}
-
-.section {}
-
 /**
   |============================
   | Porfolio page
   |============================
 */
 
-.portfolio.btn.list {}
 
 .portfolio-filtr {
     color: var(--blue-cl);
@@ -192,11 +177,6 @@ h3 {
     background: #404BBF;
 }
 
-.list {}
-
-.img {}
-
-.portfolio-item {}
 
 /**
   |============================
@@ -207,4 +187,8 @@ h3 {
 .footer {
     background-color: #2E2F42;
     color: var(--footer-p-cl)
+}
+
+.footer-studio {
+    color: var(--white-cl);
 }
