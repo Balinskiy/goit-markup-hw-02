@@ -60,7 +60,6 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
@@ -170,7 +169,7 @@ h3 {
     color: var(--dark-cl);
 }
 
-.wedoing-h2 {
+.wedoing-title {
     text-align: center;
 }
 
@@ -178,11 +177,11 @@ h3 {
     background-color: #F4F4FD;
 }
 
-.team-h2 {
+.team-title {
     text-align: center;
 }
 
-.team-list {
+.team-item {
     background-color: #FFFFFF;
 }
 
