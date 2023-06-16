@@ -17,6 +17,14 @@
     list-style: none;
 }
 
+.link {
+    text-decoration: none;
+}
+
+.address {
+    font-style: normal;
+}
+
 btn {
     font-family: inherit;
 }
@@ -75,10 +83,6 @@ body {
 .nav-link:hover,
 .nav-link:focus {
     color: #404bbf;
-}
-
-.address {
-    font-style: normal;
 }
 
 .address-link {
@@ -143,8 +147,6 @@ h3 {
     letter-spacing: 0.04em;
     color: #ffffff;
     background: var(--blue-cl);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
     cursor: pointer;
 }
 
@@ -197,16 +199,35 @@ h3 {
   |============================
 */
 
-
-.portfolio-filtr {
+.portfolio-btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: var(--blue-cl);
-    background: #F4F4FD;
+    background-color: var(--footer-cl)
 }
 
-.portfolio-filtr:hover,
-.portfolio-filtr:focus {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
     color: var(--white-cl);
     background: #404BBF;
+}
+
+.portfolio-h2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark-cl);
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--contact-cl);
 }
 
 
