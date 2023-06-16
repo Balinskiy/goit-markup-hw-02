@@ -204,6 +204,7 @@ h3 {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
     color: var(--blue-cl);
     background-color: var(--footer-cl)
 }
@@ -214,7 +215,7 @@ h3 {
     background: #404BBF;
 }
 
-.portfolio-h2 {
+.portfolio-img-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
